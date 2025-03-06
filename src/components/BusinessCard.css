@@ -1,0 +1,62 @@
+.business-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .business-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photo-placeholder {
+    width: 120px;
+    height: 120px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .contact-info h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #666;
+    text-align: center;
+  }
+  
+  .contact-info .position {
+    font-style: italic;
+  }
+  
+  .contact-info .email a,
+  .contact-info .website a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info .email a:hover,
+  .contact-info .website a:hover {
+    text-decoration: underline;
+  }
